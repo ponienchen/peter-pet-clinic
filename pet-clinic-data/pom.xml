@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+Its parent has artifactId: peter-pet-clinic project
+             & groupId: peter.springPetClinic
+
+Its id is artifactId: pet-pet-data
+
+It still needs to be bundled with the spring framework plugin
+
+It has a property:
+    <properties>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+    </properties>
+Spring Boot creates fat (Uber) Jar of an application.
+This means in addition to the class files of the application,
+it will include all the dependencies and even the embedded Tomcat.
+This makes the fat Jar readily executable.
+However in this scenario, we don't need a fat JAR  for Data module.
+We will only need the traditional JAR containing the class files required
+for Data module. Why? Because we will not execute the Data module JAR.
+We will include the Data module JAR in our Web module.
+Hence we skipped repackage to instruct Maven to create a lean JAR
+instead of a fat JAR for Data module.
+
+
+It has a few dependencies needed for web application.
+
+It depends on the pet-clinic-data module, specified by the artifactId & groupId.
+-->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">

@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+This is the main project object model (POM): <packaging>pom</packaging>
+
+Its parent is the spring boot.
+
+Its id is artifactId: peter-pet-clinic
+Its groupId: peter.springPetClinic
+
+Its bundled with the spring framework plugin, which will pack in all dependencies needed
+by the spring framework.
+
+It consists of two modules: pet-clinic-data & pet-clinic-web.
+
+It has no dependencies.
+-->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>

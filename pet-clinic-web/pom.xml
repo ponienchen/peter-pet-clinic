@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+Its parent has artifactId: peter-pet-clinic project
+             & groupId: peter.springPetClinic
+
+Its id is artifactId: pet-pet-web
+
+Its not bundled with the spring framework plugin.
+
+It has a few dependencies needed for web application.
+
+It depends on the pet-clinic-data module, specified by the artifactId & groupId.
+-->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
