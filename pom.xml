@@ -34,7 +34,7 @@ It has no dependencies.
 
     <artifactId>peter-pet-clinic</artifactId>
 
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.4</version>
     <name>peter-pet-clinic</name>
     <description>Peter Project for Spring Boot</description>
 
@@ -69,6 +69,7 @@ It has no dependencies.
         <developerConnection>scm:git:git@github.com:ponienchen/peter-pet-clinic.git</developerConnection>
         <url>git@github.com:ponienchen/peter-pet-clinic.gi</url>
         <connection>scm:git:git@github.com:ponienchen/peter-pet-clinic.gi</connection>
-    </scm>
+      <tag>peter-pet-clinic-0.0.4</tag>
+  </scm>
 
 </project>

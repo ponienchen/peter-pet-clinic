@@ -31,7 +31,7 @@ It depends on the pet-clinic-data module, specified by the artifactId & groupId.
     <parent>
         <artifactId>peter-pet-clinic</artifactId>
         <groupId>peter.springPetClinic</groupId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.4</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
