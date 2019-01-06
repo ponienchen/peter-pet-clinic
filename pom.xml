@@ -14,8 +14,7 @@ It consists of two modules: pet-clinic-data & pet-clinic-web.
 
 It has no dependencies.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <packaging>pom</packaging>
@@ -29,13 +28,13 @@ It has no dependencies.
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.1.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>peter.springPetClinic</groupId>
 
     <artifactId>peter-pet-clinic</artifactId>
 
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>peter-pet-clinic</name>
     <description>Peter Project for Spring Boot</description>
 
@@ -68,6 +67,7 @@ It has no dependencies.
     </build>
     <scm>
         <developerConnection>scm:git:git@github.com:ponienchen/peter-pet-clinic.git</developerConnection>
-    </scm>
+      <tag>peter-pet-clinic-0.0.1</tag>
+  </scm>
 
 </project>
