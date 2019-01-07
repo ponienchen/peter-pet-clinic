@@ -1,4 +1,4 @@
-package peterpetclinic;
+package peter.springpetclinic.peterpetclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
