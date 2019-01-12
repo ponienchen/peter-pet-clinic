@@ -17,6 +17,8 @@ public abstract class AbstractMapService<T, ID> {
         return map.get(id);
     }
 
+    // Note that this save function is different from the save function
+    // defined in the CrudService.
     T save(ID id, T object) {
         map.put(id, object);
         return object;

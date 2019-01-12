@@ -22,8 +22,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
         super.delete(object);
     }
 
+    // This is the save from CrudService
     @Override
     public Owner save(Owner object) {
+        // Here we are using the save from the AbstractMapService
         return super.save(object.getId(), object);
     }
 
